@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.spin{
+    animation: spin 40s linear infinite;
+}
+
+@layer utilities{
+
+    .form-input{
+      @apply w-full rounded-full border border-gray-300 dark:border-gray-600 dark:bg-gray-800 dark:text-white px-3 focus:outline-none mt-3
+    }
+}
