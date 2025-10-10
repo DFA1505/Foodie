@@ -19,12 +19,16 @@ const PopUp = ({ orderPopUp, handleOrderPopUp }) => {
               <div>
                 <input type="text" placeholder="Name" className="form-input" />
                 <input type="text" placeholder="Email" className="form-input" />
-                <input type="text" placeholder="Address" className="form-input" />
+                <input
+                  type="text"
+                  placeholder="Address"
+                  className="form-input"
+                />
                 <div className="mt-3 flex justify-center">
-                    <button className='bg-gradient-to-r from-primary to-secondary text-white px-4 py-1 rounded-full hover:scale-105 flex items-center gap-1'>
-                                  Order
-                                  <FaCartShopping className='text-xl text-white drop-shadow-sm cursor-pointer'/>
-                    </button>
+                  <button className="bg-gradient-to-r from-primary to-secondary text-white px-4 py-1 rounded-full hover:scale-105 flex items-center gap-1">
+                    Order
+                    <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
+                  </button>
                 </div>
               </div>
             </div>

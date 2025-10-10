@@ -7,7 +7,7 @@ import { RiRefund2Line } from "react-icons/ri";
 
 const Banner = () => {
   return (
-    <div className="min-h-[550px] mt-32 pb-32 sm:px-6">
+    <div className="min-h-[550px] mt-32 pb-32 sm:px-6" id="about">
       <div>
         <div data-aos="slide-right" data-aos-duration="500" className="container dark:bg-gray-800 rounded-full p-24 sm:p-32 bg-gray-100 dark:text-white">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
