@@ -5,7 +5,7 @@ import DarkMode from './DarkMode'
 
 const Navbar = ({handleOrderPopUp}) => {
   return (
-    <div className='shadow-xl bg-white dark:bg-gray-800 dark:text-white duration-200'>
+    <div className='shadow-xl bg-white dark:bg-gray-800 dark:text-white duration-200' id='home'>
       <div className='container py-3 sm:py-0'>
         <div className="flex justify-between items-center">
           <div>
@@ -16,13 +16,13 @@ const Navbar = ({handleOrderPopUp}) => {
           <div className='flex gap-3'>
             <ul className='hidden sm:flex gap-4'>
               <li>
-                <a href="" className='inline py-4 px-4 hover:text-primary font-semibold'>Home</a>
+                <a href="/#home" className='inline py-4 px-4 hover:text-primary font-semibold'>Home</a>
               </li>
               <li>
-                <a href="" className='inline py-4 px-4 hover:text-primary font-semibold'>About</a>
+                <a href="/#about" className='inline py-4 px-4 hover:text-primary font-semibold'>About</a>
               </li>
               <li>
-                <a href="" className='inline py-4 px-4 hover:text-primary font-semibold'>Contact</a>
+                <a href="/#footer" className='inline py-4 px-4 hover:text-primary font-semibold'>Contact</a>
               </li>
             </ul>
           </div>

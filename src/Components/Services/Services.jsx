@@ -26,7 +26,7 @@ const ServicesData = [
 
 const Services = () => {
   return (
-    <div className='py-10'>
+    <div className='py-10' id='services'>
       <div className='container'>
         <div className='text-center mb-20 max-w-[400px] mx-auto'>
           <p className='text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'>Our Services</p>

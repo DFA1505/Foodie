@@ -10,15 +10,14 @@ import {
 import logo from "../../assets/Logo.png";
 
 const FooterData = [
-  { title: "Home", link: "/#blog" },
+  { title: "Home", link: "/#home" },
   { title: "About", link: "/#about" },
-  { title: "Login", link: "/#" },
-  { title: "Services", link: "/#contact" },
+  { title: "Services", link: "/#services" },
 ];
 
 const Footer = () => {
   return (
-    <div className="dark:bg-slate-900 bg-gray-300">
+    <div className="dark:bg-slate-900 bg-gray-300" id="footer">
       <div className="container">
         
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 p-10 place-items-center">
